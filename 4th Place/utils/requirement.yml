@@ -1,0 +1,36 @@
+name: py-gpu
+channels:
+  - pytorch
+  - fastai
+  - conda-forge
+  - defaults
+dependencies:
+  - fastai=2.0.13=py_0
+  - lightgbm=2.3.1=py38he1b5a44_0
+  - mahotas=1.4.11=py38hc5bc63f_0
+  - opencv=4.4.0=py38_2
+  - openh264=2.1.0=hd408876_0
+  - pandas=1.1.1=py38h950e882_0
+  - pillow=7.2.0=py38h9776b28_1
+  - pip=20.2.2=py_0
+  - py-opencv=4.4.0=py38h23f93f0_2
+  - py-xgboost=1.2.0=py38h32f6830_0
+  - python=3.8.5=h1103e12_5_cpython
+  - python-dotenv=0.14.0=pyh9f0ad1d_0
+  - pytorch=1.6.0=py3.8_cuda10.1.243_cudnn7.6.3_0
+  - scikit-image=0.17.2=py38hcb8c335_1
+  - scikit-learn=0.23.2=py38hee58b96_0
+  - scipy=1.5.2=py38h8c5af15_0
+  - shapely=1.7.1=py38h98ec03d_0
+  - tensorflow-gpu=2.2.0=h0d30ee6_0
+  - torchvision=0.7.0=py38_cu101
+  - xgboost=1.2.0=py38h950e882_0
+  - pytorch-lightning=0.9.0=py_0
+  - pip:
+      - pyvips==2.1.12
+      - openslide-python==1.1.2
+      - imagecodecs==2020.5.30
+      - imagehash==4.1.0
+      - staintools==2.1.2
+      - spams==2.6.2.5
+prefix: /opt/conda/envs/py-gpu

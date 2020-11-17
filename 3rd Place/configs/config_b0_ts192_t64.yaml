@@ -1,0 +1,54 @@
+general:
+  work_dir: 'effnet-b0_p4_ts192_t64'
+  debug: false
+  workers: 8
+
+dist:
+  sync_bn: false
+  local_rank: 0
+
+data:
+  root: 'data/train'
+  train: 'data/train_labels.csv'
+
+train:
+  deterministic: false
+  seed: 314159
+
+  n_folds: 20
+  fold: 0
+
+  batch_size: 8
+  batch_accum: 1
+
+  start_epoch: 1
+  epochs: 256
+
+  loss: 'bce'
+  smoothing: 0.05
+
+  ft: false
+
+  resume: ''  # '~/kaggle/tissuenet/effnet-b0'
+  load: ''
+
+  pl: ''
+
+  page: 4
+  tile_size: 192
+  n_tiles: 64
+  image_size: 192
+
+network:
+  name: efficientnet-b0
+  num_classes: 3
+
+opt:
+  opt: 'Adam'
+  lr: 0.0003
+  momentum: 0.9
+  weight_decay: 0.0005
+
+  scheduler: 'cos'
+  T_max: 5
+  patience: 4 

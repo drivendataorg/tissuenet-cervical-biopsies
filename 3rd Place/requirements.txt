@@ -1,0 +1,12 @@
+albumentations
+awscli
+boto3
+efficientnet-pytorch
+matplotlib
+numpy
+pandas
+python-box
+pyvips==2.1.12
+scikit-learn
+torch==1.6.0
+tqdm
