@@ -19,7 +19,7 @@ Using this unique dataset, the objective is to detect the most severe epithelial
 
 ## What's in this Repository
 
-This repository contains code from winning competitors in the [TissueNet: Detect Lesions in Cervical Biopsies](https://www.drivendata.org/competitions/67/competition-cervical-biopsy/) DrivenData challenge.
+This repository contains code from winning competitors in the [TissueNet: Detect Lesions in Cervical Biopsies](https://www.drivendata.org/competitions/67/competition-cervical-biopsy/) DrivenData challenge. Code for all prize-awarded solutions are open source under the MIT License.
 
 **Winning code for other DrivenData competitions is available in the [competition-winners repository](https://github.com/drivendataorg/competition-winners).**
 
@@ -35,3 +35,5 @@ Place | Team or User | Public Score | Private Score | Summary of Model
 Additional solution details can be found in the `reports` folder inside the directory for each submission.
 
 *The first place participants declined to release their code.
+
+**Winners announcement: [Meet the winners of TissueNet](https://drivendata.co/blog/tissuenet-cervical-biopsies-winners/)**
